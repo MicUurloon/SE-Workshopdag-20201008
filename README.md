@@ -5,3 +5,5 @@
 
  - [ ] Ga naar https://dev.azure.com/ en maak een nieuwe **Azure DevOps Organization** aan
  - [ ] Creëer vervolgens een **New project** binnen de zojuist gemaakte organisatie
+
+AARDAPPELS!

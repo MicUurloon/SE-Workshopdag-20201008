@@ -61,15 +61,9 @@ namespace AspnetRun.Infrastructure.Data
 
             var categories = new List<Category>()
             {
-                new Category() { Name = "Laptop"}, // 1
-                new Category() { Name = "Drone"}, // 2
-                new Category() { Name = "TV & Audio"}, // 3
-                new Category() { Name = "Phone & Tablet"}, // 4
-                new Category() { Name = "Camera & Printer"}, // 5
-                new Category() { Name = "Games"}, // 6
-                new Category() { Name = "Accessories"}, // 7
-                new Category() { Name = "Watch"}, // 8
-                new Category() { Name = "Home & Kitchen Appliances"} // 9
+                new Category() { Name = "FHIR"}, // 1
+                new Category() { Name = "MI"}, // 2
+                new Category() { Name = "ISAAC"}
             };
 
             aspnetrunContext.Categories.AddRange(categories);

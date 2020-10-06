@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>@ViewData["Title"] - Alfonso - E&E - Electronics eCommerce Bootstrap4 HTML Template</title>
+    <title>@ViewData["Title"] - Furore SE Workshopdag</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
@@ -41,8 +41,8 @@
                     <div class="col mt-10 mb-10">
                         <!-- Header Links Start -->
                         <div class="header-links">
-                            <a asp-area="" asp-page="/TrackOrder"><img src="~/assets/images/icons/car.png" alt="Car Icon"> <span>Track your order</span></a>
-                            <a asp-area="" asp-page="/Store"><img src="~/assets/images/icons/marker.png" alt="Car Icon"> <span>Locate Store</span></a>
+                            <a asp-area="" asp-page="/Index"><img src="~/assets/images/icons/car.png" alt="Car Icon"> <span>Track your order</span></a>
+                            <a asp-area="" asp-page="/Index"><img src="~/assets/images/icons/marker.png" alt="Car Icon"> <span>Locate Store</span></a>
                         </div><!-- Header Links End -->
                     </div>
 
@@ -54,11 +54,9 @@
                                 <div class="input"><input type="text" placeholder="Search your product"></div>
                                 <div class="select">
                                     <select class="nice-select">
-                                        <option>All Categories</option>
-                                        <option>Mobile</option>
-                                        <option>Computer</option>
-                                        <option>Laptop</option>
-                                        <option>Camera</option>
+                                        <option>FHIR</option>
+                                        <option>MI</option>
+                                        <option>ISAAC</option>
                                     </select>
                                 </div>
                                 <div class="submit"><button><i class="icofont icofont-search-alt-1"></i></button></div>
@@ -105,49 +103,49 @@
                                 <ul>
                                     <li class="active"><a asp-area="" asp-page="/Index">HOME</a></li>
                                     <li>
-                                        <a asp-area="" asp-page="/Products">Shop</a>
+                                        <a asp-area="" asp-page="/Index">Shop</a>
                                     </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">PAGES</a>
-                                        <ul class="mega-menu three-column">
-                                            <li>
-                                                <a href="#">Column One</a>
-                                                <ul>
-                                                    <li><a asp-area="" asp-page="/AboutUs">About us</a></li>
-                                                    <li><a asp-area="" asp-page="/BestDeals">Best Deals</a></li>
-                                                    <li><a asp-area="" asp-page="/Cart">Cart</a></li>
-                                                    <li><a asp-area="" asp-page="/CheckOut">Checkout</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">Column Two</a>
-                                                <ul>
-                                                    <li><a asp-area="" asp-page="/Compare">Compare</a></li>
-                                                    <li><a asp-area="" asp-page="/Faq">Faq</a></li>
-                                                    <li><a asp-area="" asp-page="/Feature">Feature</a></li>
-                                                    <li><a asp-area="" asp-page="/Login">Login</a></li>
-                                                    <li><a asp-area="" asp-page="/Register">Register</a></li>
-                                                    <li><a asp-area="" asp-page="/Store">Store</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">Column Three</a>
-                                                <ul>
-                                                    <li><a asp-area="" asp-page="/TermsConditions">Terms & Conditions</a></li>
-                                                    <li><a asp-area="" asp-page="/TackOrder">Track Order</a></li>
-                                                    <li><a asp-area="" asp-page="/Wishlist">Wishlist</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a asp-area="" asp-page="/Blogs">BLOG</a>
-                                        <ul class="sub-menu">
-                                            <li><a asp-area="" asp-page="/Blogs">Blog 1 Column Left Sidebar</a></li>
-                                            <li><a asp-area="" asp-page="/BlogDetail">Single Blog Left Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a asp-area="" asp-page="/Contact">CONTACT</a></li>
+                                    <!--<li class="menu-item-has-children">
+        <a href="#">PAGES</a>
+        <ul class="mega-menu three-column">
+            <li>
+                <a href="#">Column One</a>
+                <ul>
+                    <li><a asp-area="" asp-page="/AboutUs">About us</a></li>
+                    <li><a asp-area="" asp-page="/BestDeals">Best Deals</a></li>
+                    <li><a asp-area="" asp-page="/Cart">Cart</a></li>
+                    <li><a asp-area="" asp-page="/CheckOut">Checkout</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Column Two</a>
+                <ul>
+                    <li><a asp-area="" asp-page="/Compare">Compare</a></li>
+                    <li><a asp-area="" asp-page="/Faq">Faq</a></li>
+                    <li><a asp-area="" asp-page="/Feature">Feature</a></li>
+                    <li><a asp-area="" asp-page="/Login">Login</a></li>
+                    <li><a asp-area="" asp-page="/Register">Register</a></li>
+                    <li><a asp-area="" asp-page="/Store">Store</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Column Three</a>
+                <ul>
+                    <li><a asp-area="" asp-page="/TermsConditions">Terms & Conditions</a></li>
+                    <li><a asp-area="" asp-page="/TackOrder">Track Order</a></li>
+                    <li><a asp-area="" asp-page="/Wishlist">Wishlist</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li class="menu-item-has-children">
+        <a asp-area="" asp-page="/Blogs">BLOG</a>
+        <ul class="sub-menu">
+            <li><a asp-area="" asp-page="/Blogs">Blog 1 Column Left Sidebar</a></li>
+            <li><a asp-area="" asp-page="/BlogDetail">Single Blog Left Sidebar</a></li>
+        </ul>
+    </li>
+    <li><a asp-area="" asp-page="/Contact">CONTACT</a></li>-->
                                 </ul>
                             </nav>
                         </div><!-- Main Menu End -->
@@ -192,12 +190,9 @@
                             <!-- Category Menu -->
                             <nav class="category-menu">
                                 <ul>
-                                    <li><a asp-area="" asp-page="/Products">Tv & Audio System</a></li>
-                                    <li><a asp-area="" asp-page="/Products">Computer & Laptop</a></li>
-                                    <li><a asp-area="" asp-page="/Products">Phones & Tablets</a></li>
-                                    <li><a asp-area="" asp-page="/Products">Home Appliances</a></li>
-                                    <li><a asp-area="" asp-page="/Products">Kitchen appliances</a></li>
-                                    <li><a asp-area="" asp-page="/Products">Accessories</a></li>
+                                    <li><a asp-area="" asp-page="/Index">FHIR</a></li>
+                                    <li><a asp-area="" asp-page="/Index">MI</a></li>
+                                    <li><a asp-area="" asp-page="/Index">ISAAC</a></li>
                                 </ul>
                             </nav>
 
@@ -223,24 +218,24 @@
 
     @RenderBody();
 
-    <!-- Brands Section Start -->
+    <!--
     <div class="brands-section section mb-90">
         <div class="container">
             <div class="row">
 
-                <!-- Brand Slider Start -->
+               
                 <div class="brand-slider col">
                     <div class="brand-item col"><img src="assets/images/brands/brand-1.png" alt="Brands"></div>
                     <div class="brand-item col"><img src="assets/images/brands/brand-2.png" alt="Brands"></div>
                     <div class="brand-item col"><img src="assets/images/brands/brand-3.png" alt="Brands"></div>
                     <div class="brand-item col"><img src="assets/images/brands/brand-4.png" alt="Brands"></div>
                     <div class="brand-item col"><img src="assets/images/brands/brand-5.png" alt="Brands"></div>
-                </div><!-- Brand Slider End -->
+                </div>Brand Slider End
 
             </div>
         </div>
     </div>
-    <!-- Brands Section End -->
+  Brands Section End -->
     <!-- Subscribe Section Start -->
     <div class="subscribe-section section bg-gray pt-55 pb-55">
         <div class="container">
